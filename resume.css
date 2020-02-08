@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+/*CSS Document*/
+
+
+/* header a {
+    float: left;
+    width: 30%
+} */
+
+
+/* taken from you tube */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+body {
+    background: #555555;
+    font-size: 14 px;
+    line-height: 22px;
+    color: #555555;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.semi_bold {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.resume {
+    width: 800px;
+    display: flex;
+    height: auto;
+    margin: 50px auto
+}
+
+.resume .resume_left {
+    width: 280 px;
+    background: auto
+}
+
+.resume .resume_left .resume_profile {
+    width: 100%;
+    height: 280px;
+}
+
+.resume .resume_left .resume_profile img {
+    width: 100%;
+    height: 100%
+}
+
+.resume .resume_left .resume_content {
+    padding: 0 25 px;
+}
+
+.resume .title {
+    margin-bottom: 20px
+}
+
+.resume .resume_left {
+    color: #fff;
+}
+
+.resume .resume_left .regular {
+    color: #fff;
+}
+
+.resume .resume_item {
+    padding: 25 px;
+    border-bottom: 20 px solid #fff;
+}
+
+.resume .resume_left .resume_item :last-child {
+    border-bottom: 0px;
+}
+
+.resume .resume_left ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.resume .resume_left ul li:last-child {
+    margin-bottom: 0;
+}
+
+.resume .resume_left ul li .icon {
+    width: 35px;
+    height: 35 px;
+    color: #0bb5f4;
+    border-radius: 50%;
+    font-size: 16 px
+}
+
+.resume .resume_left ul li .data {
+    color: #b1eaff;
+}
+
+.resume .resume_left .resume_skills ul li {
+    color: #b1eaff;
+    justify-content: space-between;
+}
+
+.resume .resume_left .resume_skills ul li .skill_name {
+    width: 25%;
+}
+
+.resume .resume_left .resume_skills ul li .skill_progress {
+    margin: 0 5px;
+    height: 5px;
+    background: #009fd9;
+    position: relative
+}
+
+.resume .resume_left .resume_skills ul li .skill_per {
+    width: 15%;
+}
+
+.resume .resume_left .resume_skills ul li .skill_progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #fff
+}
+
+.resume .resume_right {
+    width: 520px;
+    background: #fff;
+    padding: 25px
+}
+
+.resume .resume_right .bold {
+    color: #0bb5f4;
+}
+
+.resume .resume_right .resume_work ul,
+.resume .resume_right .resume_education ul {
+    padding-left: 40px;
+    overflow: hidden
+}
+
+.resume .resume_right ul li {
+    position: relative;
+}
+
+.resume .resume_right ul li .date {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15 px
+}
+
+.resume .resume_right ul li .info {
+    margin-bottom: 20 px;
+}

@@ -1,112 +1,168 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>seid resume </title>
-    <link rel="stylesheet" href="resume.css"></link>
+    <link rel="stylesheet" type="stylesheet" href="#resume.css" />
     <style>
-            nav {
-            float: left;
+        nav,
+        article {
             width: 100%;
+            height: auto
+        }
+        
+        nav {
+            float: left;
+            width: 70%;
             height: 100px;
             padding: 20px;
-            margin
+            margin: auto
+        }
+        
+        header {
+            background-color: rgb(228, 169, 169);
+            padding: 30px;
+            text-align: center;
+            font-size: 20px;
+            color: rgb(71, 62, 62);
+            text-align: center;
+            box-sizing: border-box;
+            margin-bottom: initial;
+        }
+        
+        #photo {
+            float: left;
+            width: 25%;
+            height: fit-content;
+        }
+        
+        #adress {
+            float: left;
+            width: 75%;
+            color: blue;
+        }
+        
+        article {
+            float: right;
+            width: 20%;
+            height: 100px;
+            padding: 20px;
+            margin: auto
+        }
+        
+        .header-section {
+            display: flex;
+        }
+        
+        .header-section>div {
+            width: 33.333%
+        }
+        
+        .header-section2>div {
+            font-family: serif;
+            column-rule-color: lightseagreen;
+            color: lightseagreen;
+        }
     </style>
 </head>
 
-<body topmargin="100" leftmargin="40" marginheight="" marginwidth="" background-color:red>
-    <section align="center">
-        <nav>
-            <a href=""><img src="../resume/myPic.jpeg" width="100" height="100"></a>
-        </nav>
-    </section>
-    <section align="center">
+<body style="background-color:rgb(84, 84, 129)">
+    <header>
+        <div class="header-section">
+            <div class="header-section1">
+                <div class="site-logo">
+                    <a href=""><img src="../resume/myPic.jpeg" width="200" height="200"></a>
+                </div>
+            </div>
+            <div class="header-section2">
+                <h3>Seid Zerihun</h3>
+                <h3>Quality tester</h3>
+                428 holcombs pond ct
+                <br> Alpharetta, GA 30022
+                <br> cell: 2404236866
+                <br>
+                <a href="">E-mail: seidoo99@gmail.com</a>
+                <br>
+            </div>
+            <div class="header-section3">
+                <a href="https://icons8.com/icon/80361/phone"><img src="https://img.icons8.com/doodle/35/000000/phone--v1.png"></a><br>
+                <a href="https://mail.google.com/mail/u/0/#inbox"><img src="https://img.icons8.com/color/35/000000/gmail-login.png"></a><br>
+                <a href="https://www.linkedin.com/in/seid-zerihun-00a22760/"><img src="https://img.icons8.com/cute-clipart/35/000000/linkedin.png"></a><br>
+                <a href="https://icons8.com/icon/msQ6HdxpqUmi/facebook"><img src="https://img.icons8.com/cute-clipart/35/000000/facebook-new.png"></a><br>
+                <a href="https://github.com/seidoo99"><img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"></a>
+            </div>
 
-        <address> 
-            <div>
-                <h2 align="center">
-                    <left>Seid Zerihun</left>
-                </h2>
-    428 holcombs pond ct
-    <br> Alpharetta, GA 30022
-    <br> cell: 2404236866
-    <br>
-    <a href = "">seidoo99@gmail.com</a>
-    <br>
-    <a href = "https://www.linkedin.com/in/seid-zerihun-00a22760/" target= "_blank"><img src = "linkedin.png"width="24" height="24"/></a>
-</address>
         </div>
-    </section>
+    </header>
     <section>
-        <p style="margin-bottom:0">
-            <h3 style="margin-bottom:4">Experience : </h3>
-            <h4 style="margin-bottom:0">Position : Quality Assurance Engineer</h4>
-            <h4 style="margin:0">client : priority Payment systems</h4>
-            <d1>
-                <b>April 2016- March 2017</b>
-            </d1>
-        </p>
-        <p style="margin:0">
-            <dt>Summary of responsibilities</dt>
+        <nav>
+            <p style="margin-bottom:0">
+                <h3 style="margin-bottom:4">Work Experience : </h3>
+                <h4 style="margin-bottom:0">Position : Quality Assurance Engineer</h4>
+                <h4 style="margin:0">client : priority Payment systems</h4>
+                <d1>
+                    <b>April 2016- March 2017</b>
+                </d1>
+            </p>
+            <p style="margin:0">
+                <dt>Summary of responsibilities</dt>
 
-            <ul>
-                <li>Create and execute performance test scripts </li>
-                <li>Design user workloads based on the expected performance benchmarks and statistically represented workload</li>
-                <li>Execute both batch and online jobs performance testing and analyze the results to provide recommendations</li>
-                <li>Works with cross functional project teams to define performance metrics and acceptance criteria.</li>
-                <li>Develop performance test plans</li>
-
-
-            </ul>
-        </p>
-
-    </section>
-    <section>
-        <p style="margin-bottom:0">
-
-            <h4 style="margin-bottom:0">Position : Manual QA tester</h4>
-            <h4 style="margin:0">client : Erie Insurance company</h4>
-            <d1>
-                <b>April 2017- present</b>
-            </d1>
-        </p>
-        <p style="margin:0">
-            <dt>Summary of responsibilities</dt>
-
-            <ul>
-                <li>Analyzing client requirements, design specification and come up with high level test scenarios </li>
-                <li>Assisted Product owner during requirement and story development</li>
-                <li>Creating and developing test plan , test suite and test cases using Jira</li>
-                <li>Collaborated with other QA’s using Github to share and update automation script/code.</li>
-                <li>Logged , tracked defects , subtask and stories using Jira</li>
+                <ul>
+                    <li>Create and execute performance test scripts </li>
+                    <li>Design user workloads based on the expected performance benchmarks and statistically represented workload</li>
+                    <li>Execute both batch and online jobs performance testing and analyze the results to provide recommendations</li>
+                    <li>Works with cross functional project teams to define performance metrics and acceptance criteria.</li>
+                    <li>Develop performance test plans</li>
 
 
-            </ul>
-        </p>
+                </ul>
+            </p>
+            <p style="margin-bottom:0">
 
-    </section>
-    <section>
-        <p>
-            <h3>Education: </h3>
-            <ul>
-                <li>Bachelor degree in engineering</li>
-            </ul>
-        </p>
-    </section>
+                <h4 style="margin-bottom:0">Position : Manual QA tester</h4>
+                <h4 style="margin:0">client : Erie Insurance company</h4>
+                <d1>
+                    <b>April 2017- present</b>
+                </d1>
+            </p>
+            <p style="margin:0">
+                <dt>Summary of responsibilities</dt>
 
-    <section>
+                <ul>
+                    <li>Analyzing client requirements, design specification and come up with high level test scenarios </li>
+                    <li>Assisted Product owner during requirement and story development</li>
+                    <li>Creating and developing test plan , test suite and test cases using Jira</li>
+                    <li>Collaborated with other QA’s using Github to share and update automation script/code.</li>
+                    <li>Logged , tracked defects , subtask and stories using Jira</li>
 
-        <p>
-            <h3>Projects: </h3>
-            <ul>
-                <li><a href="https://github.com/seidoo99/htmlExercise" target="_blank">html exercises</a></li>
 
-            </ul>
-            </ul>
-        </p>
+                </ul>
+            </p>
+            <p>
+                <h3>Education: </h3>
+                <ul>
+                    <li>Bachelor degree in engineering</li>
+                </ul>
+            </p>
+            <p>
+                <h3>Projects: </h3>
+                <ul>
+                    <li><a href="https://github.com/seidoo99/htmlExercise" target="_blank">html exercises</a></li>
+
+                </ul>
+            </p>
+        </nav>
+        <article>
+            <h4>skills & tools</h4>
+            <li>JS</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JQuerry</li>
+            <li>Bootstrap</li>
+        </article>
     </section>
 </body>
 
